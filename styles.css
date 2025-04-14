@@ -24,6 +24,7 @@ h3{
 }
 
 main {
+    font-family: "poppins",sans-serif;
     min-height: 100vh;
     background: linear-gradient(to right top, #65dfc9, #6cdbeb);
     display: flex;
@@ -95,6 +96,8 @@ main {
     top: -10%;
     right: 10%;
 }
-.pro h2{
-    width: 40%;
+.pro h3{
+    width: 60%;
+    color: white;
+    font-weight: 600;
 }
