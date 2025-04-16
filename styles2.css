@@ -41,4 +41,5 @@ nav{
 }
 .carts{
     flex: 1;
+    justify-content: end;
 }
