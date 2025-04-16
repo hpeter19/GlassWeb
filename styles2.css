@@ -11,7 +11,10 @@ header{
     display: flex;
     background: #8d8d92;
     width: 90%;
+    height: 15vh;
     margin: auto;
+    align-items: center;
+    
 
 }
 .logo-container{
