@@ -7,3 +7,10 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+header{
+    display: flex;
+    background: #8d8d92;
+    width: 90%;
+    margin: auto;
+    
+}
