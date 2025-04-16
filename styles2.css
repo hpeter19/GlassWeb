@@ -9,7 +9,6 @@ body{
 }
 header{
     display: flex;
-    background: #8d8d92;
     width: 90%;
     height: 15vh;
     margin: auto;
@@ -17,15 +16,29 @@ header{
     
 
 }
+.logo-container,.nav-links,.carts{
+    display: flex;
+}
 .logo-container{
-    background: lightblue;
     flex: 1;
 }
+.logo{
+    font-weight: 400;
+    margin: 10px;
+}
 nav{
-    background: #667761;
     flex: 2;
 }
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+    
+}
+.nav-link{
+    color: #5f5f79;
+    font-size: 18px;
+    text-decoration: none;
+}
 .carts{
-    background: #840804;
     flex: 1;
 }
