@@ -12,5 +12,17 @@ header{
     background: #8d8d92;
     width: 90%;
     margin: auto;
-    
+
+}
+.logo-container{
+    background: lightblue;
+    flex: 1;
+}
+nav{
+    background: #667761;
+    flex: 2;
+}
+.carts{
+    background: #840804;
+    flex: 1;
 }
