@@ -123,3 +123,10 @@ nav{
     z-index: -1;
     height: 40%;
 }
+.laptop-select{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 15%;
+}
