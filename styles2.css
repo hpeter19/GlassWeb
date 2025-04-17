@@ -99,7 +99,7 @@ nav{
 .cover img{
     height: 60vh;
     filter: drop-shadow( 0px 5px 3px);
-    animation: drop 0.5s ease;
+    animation: drop 0.8s ease;
 }
 .big-circle{
     position: absolute;
@@ -142,4 +142,29 @@ nav{
        transform: translateY(0px);
 
     }
+}
+
+@media screen and  ( max-width: 1024px){
+   .presentation{
+    flex-direction: column;
+   }
+   .introduction{
+    margin: 5vh;
+    text-align: center;
+   }
+   .into-text h1{
+    font-size: 30px;
+   }
+   .into-text p{
+    font-size: 18px;
+   }
+   .cta{
+    padding: 10px 0px 0px 0px;
+   }
+   .laptop-select{
+    bottom: 5%;
+    right: 50%;
+    width: 50%;
+    transform: translate(50%,5%);
+   }
 }
