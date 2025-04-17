@@ -96,8 +96,14 @@ nav{
     margin: 30px 0px 0px 30px;
     
 }
-.cover img{
+.cover{
+    flex: 1;
+    display: flex;
+    justify-content: center;
     height: 60vh;
+}
+.cover img{
+    height: 100vh;
     filter: drop-shadow( 0px 5px 3px);
     animation: drop 0.8s ease;
 }
@@ -162,9 +168,12 @@ nav{
     padding: 10px 0px 0px 0px;
    }
    .laptop-select{
-    bottom: 5%;
+    bottom: 15%;
     right: 50%;
     width: 50%;
     transform: translate(50%,5%);
+   }
+   .cover img{
+    
    }
 }
