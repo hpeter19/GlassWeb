@@ -50,6 +50,18 @@ nav{
     min-height: 80vh;
     align-items: center;
 }
+.introduction{
+   
+    flex: 1;
+
+}
+.into-text h1{
+    font-size: 44px;
+    font-weight: 500;
+    background: linear-gradient(to right,#494964,#6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .cover img{
     height: 60vh;
 }
