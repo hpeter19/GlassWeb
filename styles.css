@@ -55,13 +55,13 @@ main {
 .circle1 {
     top: 5%;
     right: 15%;
-    background-color: yellow;
+ 
 }
 
 .circle2 {
     bottom: 5%;
     left: 10%;
-    background-color: green;
+   
 }
 .dashboard{
     flex: 1;
