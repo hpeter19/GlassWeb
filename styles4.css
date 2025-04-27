@@ -19,6 +19,8 @@ main{
     border-radius: 1.5rem;
     z-index: 2;
     backdrop-filter: blur(3rem);
+    display: flex;
+    flex-direction: column;
 
 }
 .circle1, .circle2{
@@ -37,4 +39,7 @@ main{
 .circle2{
    bottom: 5%;
    left: 10%;
+}
+.dashboard{
+    flex: 1;
 }
