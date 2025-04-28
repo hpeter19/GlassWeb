@@ -41,6 +41,29 @@ section .color:nth-child(3){
 .box{
     position: relative;
 }
+.box .square{
+    position: absolute;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 25px 45px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-radius: 10px;
+
+}
+.box .square:nth-child(1){
+    top: -50px;
+    right: -60px;
+    width: 100px;
+    height: 100px;
+}
+.box .square:nth-child(2){
+    top: 150px;
+    left: -100px;
+    width: 120px;
+    height: 120px;
+    z-index: 2;
+}
 .container{
     position: relative;
     width: 400px;
@@ -104,6 +127,15 @@ section .color:nth-child(3){
     color: #181b26;
     max-width: 100px;
     cursor: pointer;
+    font-weight: 600px;
+
+}
+.forget{
+    margin-top: 5px;
+    color: #fff;
+}
+.forget a{
+    color: #fff;
     font-weight: 600px;
 
 }
