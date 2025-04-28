@@ -49,8 +49,20 @@ section .color:nth-child(3){
     border-right: 1px solid rgba(255,255,255,0.2);
     border-bottom: 1px solid rgba(255,255,255,0.2);
     border-radius: 10px;
+    animation: animate 10s linear infinite;
+    animation-delay: calc(-1s * var(--i) );
 
 }
+@keyframes animate{
+    0%, 100%
+    {
+     transform: translateY(-40px);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+}
+
 .box .square:nth-child(1){
     top: -50px;
     right: -60px;
