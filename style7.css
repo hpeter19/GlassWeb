@@ -110,6 +110,8 @@ body{
     background: #fff;
     border-radius: 50%;
     animation: animate 5s linear infinite;
+    filter: blur(8px);
+    animation-delay: calc(var(--i) * -0.5s);
 }
 @keyframes animate{
     0%{
